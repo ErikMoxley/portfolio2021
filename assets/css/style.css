@@ -389,7 +389,7 @@ header{
 /////////////////////////////////////////////////////////////////////*/
 
 #testimonial {
-    background: url(../images/parallax.jpg);
+    background: url(../images/network.jpg);
     padding: 80px 0px 80px 0px;
     color: #fff;
     background-attachment: fixed;
@@ -712,13 +712,12 @@ footer {
 	}
 }
 
-
 /* ///////////////////////////////////////////////////////////////////// 
 //  10 - About 
 /////////////////////////////////////////////////////////////////////*/
 
 #about {
-    background: url(../images/parallax.jpg);
+    background: url(../images/bg2.jpg);
     padding: 80px 0px 80px 0px;
     color: #fff;
     background-attachment: fixed;
