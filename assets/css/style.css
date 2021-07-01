@@ -119,13 +119,13 @@ header{
 
 .scrollDown {
     font-size: 4em;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.726);
     position: absolute;
     bottom: 10%;
     left: 49%;
 }
 .scrollDown:hover{
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.5);
 	transition: 0.4s ease all;
 }
 
@@ -746,5 +746,5 @@ footer {
 }
 
 .scrollbutton {
-	padding-top: 50px;
+	padding-top: 60px;
 }
