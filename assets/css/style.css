@@ -134,7 +134,7 @@ header {
     bottom: 0%;
     left: 48.5%;
 }
-.scrollDown:hover{
+.scrollDown:hover .scrollDown:hover {
 	color: rgba(255, 255, 255, 0.5);
 	transition: 0.4s ease all;
 }
