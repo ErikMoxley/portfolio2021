@@ -211,6 +211,11 @@ header{
 //  04 - Services
 /////////////////////////////////////////////////////////////////////*/
 
+#skills {
+	color: white;
+    padding: 80px 0px 0px 0px;
+}
+
 .services {
 	color: white;
     max-width: 150px;
