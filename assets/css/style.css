@@ -597,7 +597,7 @@ footer {
 	}
 	.service-wrap i {
 	    font-size: 4em;
-	    margin-top: 15px;
+		margin-top: 10%;
 	}
 	.service-wrap h3 {
 	    font-size: 1.4em;
@@ -617,7 +617,7 @@ footer {
 	}
 	.service-wrap p {
 		font-size: 11px;
-		margin-top: 15px;
+		margin-top: 10%;
 	}
 	.pe-dj {
 		font-size: 4em;
