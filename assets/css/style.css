@@ -124,7 +124,7 @@ header {
     font-size: 6em;
     color: rgba(255, 255, 255, 0.726);
     position: absolute;
-    bottom: 10%;
+    bottom: 23%;
     left: 48.5%;
 }
 .scrollUp {
@@ -687,7 +687,11 @@ footer {
 	}
 	.scrollDown {
 	    top: 70%;
-	    left: 46%;
+	    left: 45%;
+	}
+	.scrollUp {
+	    top: 60%;
+	    left: 45%;
 	}
 	.service-wrap h3 {
 	    font-size: 0.9em;
@@ -727,6 +731,10 @@ footer {
 
 	.scrollDown {
 	    top: 70%;
+	    left: 44%;
+	}
+	.scrollUp {
+	    top: 60%;
 	    left: 44%;
 	}
 }
