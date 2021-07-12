@@ -98,10 +98,10 @@ a:hover,a:active,a:focus{
 
 header {
 	background: url(../images/bg.jpg) no-repeat;
-	overflow: hidden;
-	background-size: cover;
-	width: 100%;
-	min-height: 100vh;
+    padding: 40px 0px 40px 0px;
+    color: #fff;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .center {
     text-align: center;
@@ -121,11 +121,18 @@ header {
 }
 
 .scrollDown {
-    font-size: 4em;
+    font-size: 6em;
     color: rgba(255, 255, 255, 0.726);
     position: absolute;
-    bottom: 10%;
-    left: 49%;
+    bottom: 23%;
+    left: 48.5%;
+}
+.scrollUp {
+    font-size: 6em;
+    color: rgba(255, 255, 255, 0.726);
+    position: absolute;
+    bottom: 0%;
+    left: 48.5%;
 }
 .scrollDown:hover{
 	color: rgba(255, 255, 255, 0.5);
@@ -588,10 +595,10 @@ footer {
 	}
 	.bigheadline {
 		font-size: 13em;
-		padding-top: 80px;
+		padding-top: 40px;
 	}
 	.subheadline {
-		font-size: 5em;
+		font-size: 3em;
 	}
 }
 
@@ -663,7 +670,7 @@ footer {
 		font-size: 2em;
 	}
 	.bigheadline {
-		font-size: 6em;
+		font-size: 5em;
 	}
 	.subheadline {
 		font-size: 2em;
@@ -696,7 +703,7 @@ footer {
 	    font-size: 1em;
 	}
 	.bigheadline {
-	    font-size: 4em;
+	    font-size: 3em;
 	}
 	.subheadline {
 	    font-family: 'Titillium Web',sans-serif;
