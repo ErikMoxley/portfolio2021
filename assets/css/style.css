@@ -98,7 +98,7 @@ a:hover,a:active,a:focus{
 
 header {
 	background: url(../images/bg.jpg) no-repeat;
-    padding: 0px 0px 0px 0px;
+    padding: 80px 0px 80px 0px;
     color: #fff;
     background-attachment: fixed;
     background-size: cover;
@@ -124,7 +124,7 @@ header {
     font-size: 6em;
     color: rgb(0, 0, 0);
     position: absolute;
-    bottom: 23%;
+    bottom: 10%;
     left: 48.5%;
 }
 .scrollUp {
