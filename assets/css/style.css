@@ -168,7 +168,7 @@ header {
     font-size: 3em;
     padding: 0.2em 0;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
     display: table-cell;
 	vertical-align: middle;
@@ -178,26 +178,27 @@ header {
     float: right;
     font-size: 3em;
     color: #fff;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .dropdown-menu {
     min-width: 240px;
     right: 0;
     left: auto;
-    border: 1px solid #000;
+    border: 2px solid rgb(99, 99, 99);
     box-shadow: none;
     border-radius: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
+    background: #111;
 }
 .dropdown-menu ul {
     list-style: none;
     margin: 0;
-    padding: 1em 2em;
+    padding: 0px 2em;
     margin-top: 5%;
 }
 .dropdown-menu ul li {
     padding: 0.3em 0em 0.6em 0em;
-    font-size: 1.3em;
+    font-size: 1.5em;
     position: relative;
 }
 .dropdown-menu ul li a i {
@@ -206,7 +207,8 @@ header {
     top: 20%;
     font-size: 25px;
 }
-.arrow-up {
+
+/* .arrow-up {
 	width: 0; 
 	height: 0; 
 	border-left: 8px solid transparent;
@@ -216,7 +218,7 @@ header {
 	float: right;
 	margin-top: -5%;
 	margin-right: 23px;
-}
+} */
 
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -661,6 +663,24 @@ footer {
 		width: 100%;
 		min-height: 100vh;
 	}
+    .bigheadline {
+		font-size: 7em;
+        color:#fff;
+        padding-bottom: 25px;
+	}
+	.subheadline {
+		font-size: 2em;
+        color:#fff;
+	}
+    .scrollDown {
+	    top: 50%;
+	    left: 46%;
+        color:#fff
+	}
+	.scrollUp {
+	    top: 60%;
+	    left: 46%;
+	}
 }
 
 @media all and (max-width: 768px) {
@@ -697,7 +717,7 @@ footer {
 		text-align: center;
 	}
 	.scrollDown {
-	    top: 70%;
+	    top: 50%;
 	    left: 45%;
 	}
 	.scrollUp {
@@ -718,12 +738,12 @@ footer {
 	    font-size: 1em;
 	}
 	.bigheadline {
-	    font-size: 3em;
+	    font-size: 4em;
 	}
 	.subheadline {
 	    font-family: 'Titillium Web',sans-serif;
-	    font-size: 1.5em;
-	    font-weight: 200;
+	    font-size: 1.8em;
+	    font-weight: 300;
 	    margin: 0;
 	}
 	.testimonila-block p {
@@ -741,12 +761,12 @@ footer {
 @media all and (max-width: 480px) {
 
 	.scrollDown {
-	    top: 70%;
-	    left: 44%;
+	    top: 50%;
+	    left: 43%;
 	}
 	.scrollUp {
 	    top: 60%;
-	    left: 44%;
+	    left: 43%;
 	}
 }
 

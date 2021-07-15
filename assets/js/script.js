@@ -183,3 +183,25 @@ var map=new google.maps.Map(document.getElementById("googleMap")
 google.maps.event.addDomListener(window, 'load', initialize);
 
 
+  ///////////////////////////////
+  // Hamburger JS
+  ///////////////////////////////
+
+// on outside click to collapse hamburger
+jQuery(function($){
+  $(document).on("click", function(e){
+    if( 
+      $(e.target).closest(".hamburger").length == 0 &&
+      $(".hamburger").hasClass("is-active") &&
+      $(e.target).closest(".menu-btn").length == 0
+    ){
+      $('.hamburger').toggleClass('is-active');
+    }
+  });
+});
+
+//toggle hamburger between is-active and collapse
+var hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function() {
+hamburger.classList.toggle("is-active")
+  });
