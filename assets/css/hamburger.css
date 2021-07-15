@@ -20,7 +20,7 @@
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: rgb(122, 122, 122); }
+    background-color: rgb(153, 153, 153); }
 
   .hamburger-box {
   width: 40px;
