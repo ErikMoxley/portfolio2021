@@ -666,6 +666,7 @@ footer {
     .bigheadline {
 		font-size: 7em;
         color:#fff;
+        padding-top: 100px;
         padding-bottom: 25px;
 	}
 	.subheadline {
@@ -673,7 +674,7 @@ footer {
         color:#fff;
 	}
     .scrollDown {
-	    top: 50%;
+	    top: 60%;
 	    left: 46%;
         color:#fff
 	}
@@ -702,6 +703,7 @@ footer {
 	}
 	.bigheadline {
 		font-size: 5em;
+        padding-top: 100px;
 	}
 	.subheadline {
 		font-size: 2em;
@@ -717,7 +719,7 @@ footer {
 		text-align: center;
 	}
 	.scrollDown {
-	    top: 50%;
+	    top: 60%;
 	    left: 45%;
 	}
 	.scrollUp {
@@ -761,7 +763,7 @@ footer {
 @media all and (max-width: 480px) {
 
 	.scrollDown {
-	    top: 50%;
+	    top: 60%;
 	    left: 43%;
 	}
 	.scrollUp {
