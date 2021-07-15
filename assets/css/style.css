@@ -43,13 +43,13 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: 'Dosis', sans-serif;
 }
 a {
-	color: #699be6;
+	color: #4873ff;
 	transition: 0.4s ease all;
 	outline: none;
 }
 a:hover,a:active,a:focus{
 	text-decoration: none;
-	color: #2183b1;
+	color: #a0ecff;
 	opacity: 0.9;
 	outline: none;
 }
