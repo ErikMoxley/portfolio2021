@@ -336,10 +336,7 @@
                         </div>
                         <div class="col-sm-6">
                             <h2 class="con-title">Form</h2>
-                            <form role="form" action="POST" data-netlify="true" netlify-honeypot="bot-field">
-                                <p class="hidden">
-                                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-                                  </p>
+                            <form role="form" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                               <div class="form-group">
                                 <input type="text" class="form-control" id="name" placeholder="Enter your name">
                               </div>
@@ -349,7 +346,9 @@
                               <div class="form-group">
                                 <textarea name="InputMessage" id="user_message" class="form-control" rows="5" required></textarea>
                               </div>
-
+                            </p>
+                            <div data-netlify-recaptcha="true"></div>
+                            <p>
                               <button type="submit" class="btn medium">Submit</button>
                             </form>   
                         </div>
