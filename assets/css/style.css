@@ -757,10 +757,10 @@ footer {
 	    height: 30px;
 	}
 	.service-wrap h3 {
-	    font-size: 1.1em;
+	    font-size: 2.0em;
 	}
 	.dropdown-menu {
-		margin-top: -10px;
+		margin-top: -5px;
 	}
 	.scrollDown {
 	    top: 60%;
