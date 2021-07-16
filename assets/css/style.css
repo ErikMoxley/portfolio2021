@@ -167,7 +167,7 @@ header {
 
 .logo-text {
     font-size: 3em;
-    padding: 0.2em 100;
+    padding: 0;
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 100;
@@ -727,15 +727,16 @@ footer {
 	    left: 45%;
 	}
 	.service-wrap h3 {
-	    font-size: 0.9em;
+	    font-size: 1.1em;
+	}
+	.logo-text {
+		font-size: 2em;
+		padding-top: 10px;
+		color: #fff;
 	}
 }
-@media all and (max-width: 380px) {
 
-
-	.logo-text {
-	    font-size: 2em;
-	}
+@media all and (max-width: 480px) {
 	.centered p {
 	    font-size: 1em;
 	}
@@ -756,19 +757,18 @@ footer {
 	    height: 30px;
 	}
 	.service-wrap h3 {
-	    font-size: 0.9em;
+	    font-size: 1.1em;
 	}
-}
-
-@media all and (max-width: 480px) {
-
+	.dropdown-menu {
+		margin-top: -10px;
+	}
 	.scrollDown {
 	    top: 60%;
-	    left: 43%;
+	    left: 40%;
 	}
 	.scrollUp {
 	    top: 60%;
-	    left: 43%;
+	    left: 40%;
 	}
 }
 
