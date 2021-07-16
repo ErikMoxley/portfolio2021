@@ -188,7 +188,7 @@ header {
     border: 2px solid rgb(99, 99, 99);
     box-shadow: none;
     border-radius: 0px;
-    margin-top: -15px;
+    margin-top: -9px;
     background: #111;
 }
 .dropdown-menu ul {
@@ -381,7 +381,7 @@ header {
 	border: 1px solid #fff;
 }
 .button:hover {
-    background: white;
+    background: rgba(255, 255, 255, 0.747);
     color: #000;
 }
 .btn-center {
@@ -627,7 +627,7 @@ footer {
 	    font-size: 4em;
 	}
 	.service-wrap h3 {
-	    font-size: 1.4em;
+	    font-size: 1.8em;
 	}
 	.service-wrap p {
 	    font-size: 11px;
@@ -649,7 +649,7 @@ footer {
 		font-size: 4em;
 	}
 	.service-wrap h3 {
-	    font-size: 1.4em;
+	    font-size: 1.8em;
 	}
 
 }
@@ -757,7 +757,7 @@ footer {
 	    height: 30px;
 	}
 	.service-wrap h3 {
-	    font-size: 2.0em;
+	    font-size: 1.0em;
 	}
 	.dropdown-menu {
 		margin-top: -5px;
