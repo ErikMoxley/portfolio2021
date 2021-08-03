@@ -13,14 +13,14 @@
   margin: 0;
   overflow: visible; }
   .hamburger:hover {
-    opacity: 0.1;}
+    opacity: 0.5;}
   .hamburger.is-active:hover {
-    opacity: 0.1;}
+    opacity: 0.5;}
     
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: rgb(224, 224, 224); }
+    background-color: rgb(255, 255, 255); }
 
   .hamburger-box {
   width: 40px;
